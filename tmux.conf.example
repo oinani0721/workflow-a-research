@@ -1,0 +1,8 @@
+# tmux.conf for Claude Code Agent Teams
+# CRITICAL: pane-base-index must be 0 (Claude Code bug)
+set -g base-index 1
+setw -g pane-base-index 0
+set -g mouse on
+set -sg escape-time 0
+set -g focus-events on
+set -g remain-on-exit off
